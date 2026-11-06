@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f9;
+    color: #202636;
+}
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 18px;
+}
+
+.kereses {
+    margin-bottom: 20px;
+}
+
+#kereso {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+#kereso:focus {
+    border-color: #2563eb;
+}
+
+.statisztika {
+    margin-bottom: 20px;
+    color: #64748b;
+}
+
+.kerdes {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    padding: 18px;
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.kerdes:hover {
+    border-color: #2563eb;
+}
+
+.kerdes h3 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.valasz {
+    display: none;
+    margin-top: 14px;
+    padding: 14px;
+    background: #eff6ff;
+    border-radius: 8px;
+    line-height: 1.6;}
+.valasz {
+    white-space: pre-line;
+}
+
+.valasz img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 12px auto;
+    border-radius: 8px;
+}
+
+
+.valasz.lathato {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    .kerdes {
+        padding: 15px;
+    }
+}
