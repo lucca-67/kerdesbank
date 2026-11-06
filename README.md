@@ -1,2 +1,2 @@
 # kerdesbank
-Vasuti Kérdésbank
+Vasúti Kérdésbank
